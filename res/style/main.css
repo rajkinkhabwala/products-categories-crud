@@ -1,0 +1,13 @@
+.container {
+    margin: 50px auto;
+    
+}
+.card {
+    width: 350px;
+}
+.row {
+    margin: 30px auto;
+}
+#delete {
+    width: auto;
+}
