@@ -2,11 +2,6 @@
 require 'Database.php';
 class GetCategories
 {
-    public $id = array();
-    public $categoryname = array();
-    public $categorydescription = array();
-    public $html;
-
     public function all()
     {
         $init = new Database;
@@ -88,17 +83,6 @@ class GetCategories
         <?php
                     }
                 }
-            }
-
-            // This is the function i wanted to return 
-            public function all_category()
-            {
-                $init = new Database;
-                $sql = "SELECT * FROM categories";
-                // Result
-                $result = array();
-                $result = $init->conn->query($sql);
-                return $result;
             }
         }
         ?>

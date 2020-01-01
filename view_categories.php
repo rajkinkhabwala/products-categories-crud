@@ -2,6 +2,7 @@
 $title = "Categories";
 include 'config/config.php';
 include 'templates/header.php';
+require 'classes/GetCategories.php';
 ?>
 <div class="container">
     <?php
